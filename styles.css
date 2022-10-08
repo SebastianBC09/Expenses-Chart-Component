@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  /* COLORS */
+
+  /* Primary */
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+
+  /* Neutral */
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --very-pale-orange: hsl(33, 100%, 98%);
+
+  /* Font Family */
+  --dm-sans: "DM Sans", sans-serif;
+
+  /* Sizes */
+  --regular-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  height: 100vw;
+  margin: 0;
+
+  font-family: var(--dm-sans);
+  font-size: var(--regular-size);
+  background-color: var(--cream);
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  width: 540px;
+  height: 125px;
+
+  border-radius: 20px;
+  background-color: var(--soft-red);
+}
+
+.balance__title {
+  margin: 0 0 0 32px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+}
+
+.balance__amount {
+  margin: 0 0 0 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: white;
+}
+
+main {
+  height: 511px;
+  width: 540px;
+  border-radius: 20px;
+  background-color: hsla(30, 100%, 98%, 1);
+}
+
+.chart__title {
+  margin: 32px 0 0 40px;
+  line-height: 42px;
+  color: var(--dark-brown);
+}
+
+.chart {
+  height: 178px;
+  width: 460.5px;
+  border-radius: 0px;
+  border: 1px solid var(--very-pale-orange);
+}
+
+hr {
+  width: 460px;
+  height: 2px;
+  border: none;
+  border-radius: 1px;
+  background: var(--cream);
+}
+
+.chart__footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 40px;
+}
+
+.chart__total--title {
+  margin: 0;
+  line-height: 23px;
+  color: var(--medium-brown);
+}
+
+.chart__total--amount {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: var(--dark-brown);
+}
+
+.chart__percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chart__percentage--amount {
+  margin: 0;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: right;
+  color: var(--dark-brown);
+}
+
+.chart__percentage--subtitle {
+  margin: 0;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: right;
+  color: var(--medium-brown);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

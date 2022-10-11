@@ -75,10 +75,31 @@ main {
 }
 
 .chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 178px;
   width: 460.5px;
   border-radius: 0px;
-  border: 1px solid var(--very-pale-orange);
+}
+
+.chart__column--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart__column--bar {
+  width: 100%;
+  border-radius: 5px;
+  color: var(--soft-red);
+}
+
+.chart__column--label {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--medium-brown);
 }
 
 hr {

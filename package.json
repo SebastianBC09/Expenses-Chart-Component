@@ -1,0 +1,19 @@
+{
+  "name": "expenses-chart-component",
+  "version": "1.0.0",
+  "description": "Creating a bar chart component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianBC09/Expenses-Chart-Component.git"
+  },
+  "author": "Sebastian Ballen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianBC09/Expenses-Chart-Component/issues"
+  },
+  "homepage": "https://github.com/SebastianBC09/Expenses-Chart-Component#readme"
+}
